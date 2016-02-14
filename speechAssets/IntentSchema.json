@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "intent": "GetQRZ",
+      "slots": [
+        {
+          "name": "CallSignA",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "CallSignB",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "CallSignC",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "CallSignD",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "CallSignE",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "CallSignF",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "CallSignG",
+          "type": "LETTER_OR_NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "alexaQrz",
+  "description": "A simple alexa-skill to make F.C.C radio license lookups",
+  "author": "Michael Ihde <mike.ihde@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/maihde/alexaQrz",
+  "dependencies": {
+    "request": ">=2.69.0"
+  }   
+}

@@ -1,0 +1,9 @@
+GetQRZ {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+
+GetQRZ {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
