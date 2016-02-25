@@ -1,9 +1,162 @@
-GetQRZ {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
-GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
-GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
-GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ  {CallSignA} {CallSignB} {CallSignC}
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} please
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} stop
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} over
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD}
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} please
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} stop
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} over
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} please
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} stop
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} over
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} please
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} stop
+GetQRZ  {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} over
 
-GetQRZ {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC}
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} please
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} stop
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} over
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD}
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} please
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} stop
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} over
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} please
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} stop
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} over
 GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} please
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} stop
+GetQRZ lookup {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} over
+
+
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC}
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} please
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} stop
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} over
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD}
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} please
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} stop
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} over
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} please
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} stop
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} over
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} please
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} stop
+GetQRZ look up {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} over
+
+
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC}
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} please
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} stop
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} over
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD}
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} please
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} stop
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} over
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} please
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} stop
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} over
 GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} please
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} stop
+GetQRZ who is {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} over
+
+
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC}
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} please
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} stop
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} over
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD}
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} please
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} stop
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} over
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} please
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} stop
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} over
 GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} please
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} stop
+GetQRZ who has {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} over
+
+
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC}
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} please
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} stop
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} over
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD}
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} please
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} stop
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} over
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} please
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} stop
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} over
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} please
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} stop
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} over
+
+
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC}
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} please
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} stop
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} over
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD}
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} please
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} stop
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} over
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE}
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} please
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} stop
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} over
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF}
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} please
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} stop
+GetQRZ give me the name of {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} over
+
+
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} is
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} is please
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} is stop
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} is over
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} is
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} is please
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} is stop
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} is over
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} is
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} is please
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} is stop
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} is over
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} is
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} is please
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} is stop
+GetQRZ who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} is over
+
+
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} is
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} is please
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} is stop
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} is over
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} is
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} is please
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} is stop
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} is over
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} is
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} is please
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} is stop
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} is over
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} is
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} is please
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} is stop
+GetQRZ tell me who {CallSignA} {CallSignB} {CallSignC} {CallSignD} {CallSignE} {CallSignF} is over
+
+

@@ -79,8 +79,16 @@ askQrz.prototype.intentHandlers = {
 
     // Built-in Intents
     "AMAZON.HelpIntent": function (intent, session, response) {
-        response.ask("You can ask me about F.C.C. radio callsigns!  What callsign do you want to lookup?",
-                     "What callsign do you want to lookup?");
+        if (session.attributes.stage === "retry") {
+            response.ask("I wasn't able to find the callsign you requested.  You can say exit or ask for another callsign.  What callsign do you want to lookup?",
+                         "What callsign do you want to lookup?");
+        } else if (session.attributes.stage === "details") {
+            response.ask("Say yes if you want more details or say no to exit.  Would you like more details?",
+                         "Would you like more details?");
+        } else {
+            response.ask("You can ask me about F.C.C. radio callsigns!  What callsign do you want to lookup?",
+                         "What callsign do you want to lookup?");
+        }
     },
     
     "AMAZON.StopIntent": function (intent, session, response) {
@@ -123,17 +131,29 @@ askQrz.prototype.intentHandlers = {
 function handleQrzIntent(intent, session, response) {
     console.log("Session stage: " + session.attributes.stage);
     if (session.attributes.stage === "details") {
-        if (intent.slots && intent.slots.CallSignA && (intent.slot.CallSignA.value.toUpperCase() == "y")) {
+        if (intent.slots && intent.slots.CallSignA && (intent.slots.CallSignA.value === "yes")) {
             handleQrzDetails(intent, session, response);
-        } else {
+        } else if (intent.slots && intent.slots.CallSignA && (intent.slots.CallSignA.value === "no")) {
             response.tell("Goodbye.");
+        } else {
+            response.ask("Say yes if you want more details, or you can say no to exit?",
+                         "Say yes if you want more details, or you can say no to exit?");
         }
     } else {
         // Extract the callSign; the callSignSpeech is the same but
         // in SSML
         var callSign = "", callSignSpeech = "";
-        var callSignSlotSuffixes = ["A", "B", "C", "D", "E", "F", "G"];
+        var callSignSlotSuffixes = ["A", "B", "C", "D", "E", "F"];
 
+        // FCC call signs are one of three types:
+        //    Sequential 3 to 6 letters:
+        //       Prefix K, N, W, AA-AL, KA-KZ, NA-NZ, WA-WZ
+        //       Number
+        //       Suffix 1-3 letters
+        //    Special Event: 3 char
+        //       Prefix K, N, W
+        //       Number
+        //       Letter
         for (var i=0; i<callSignSlotSuffixes.length; i++) {
             var suffix = callSignSlotSuffixes[i];
             var slot = intent.slots["CallSign"+suffix];
@@ -146,7 +166,12 @@ function handleQrzIntent(intent, session, response) {
                 if (value === "for") {
                     value = "4";
                 }
-                // sometimes Alexa will insert punction here 
+                // If Alexa accidentially puts a stop word in a slot
+                if ((value === "stop") || (value === "please") || (value === "over") || (value === "is")) {
+                    break;
+                }
+                // sometimes Alexa will insert punction into a slot,
+                // so skip over it
                 if (((charc >= 48) && (charc <= 57)) || ((charc >= 65) && (charc <= 90))) {
                     callSign = callSign + value.substring(0, 1);
                 }
@@ -157,7 +182,7 @@ function handleQrzIntent(intent, session, response) {
         var repromptText = "";
 
         // Error checking
-        if (!callSign || (callSign.length < 5)) {
+        if (!callSign || (callSign.length < 3)) {
             speechOutput = "I'm sorry, I didn't catch what callsign you wanted to lookup.  What callsign do you want to lookup?";
             repromptText = "What callsign do you want to lookup?";
             response.ask(speechOutput, repromptText);
